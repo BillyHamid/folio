@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^5.11.2",
     "@tabler/icons-react": "^3.31.0",
     "clsx": "^2.1.1",
     "motion": "^12.6.3",
