@@ -11,96 +11,150 @@ import { BackgroundBeamsWithCollision } from "@/components/background-beams-with
 
 
 
+
 export default function TimelineDemo() {
   const data = [
     {
-      title: "Early 2023",
+      title: "Early 2024",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
-          </p>
           <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="/5bb50a97-d8a7-4b89-b910-88acbc56e851.jpg"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-48 md:h-72 lg:h-96 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="/4c693dd8-6025-4a56-9745-b82f45ffc8d1.jpg"
-              alt="startup template"
-              width={500}
-              height={600}
-              className="rounded-lg object-cover h-48 md:h-72 lg:h-96 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
-            <Image
-              src="/33c3d70d-bbd4-48b5-8a28-dbdf4ab166bb (1).jpg"
-              alt="startup template"
-              width={500}
-              height={500}
-className="rounded-lg object-cover h-48 md:h-72 lg:h-96 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
-            <Image
-              src="/869bd644-d4e3-4e74-800f-d31859436737.jpg"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-48 md:h-72 lg:h-96 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              />
+            <a 
+              href="/5bb50a97-d8a7-4b89-b910-88acbc56e851.jpg" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-80 transition-opacity"
+            >
               <Image
-              src="/00218ac1-6c2f-458d-9cd7-13a136aa23ed.jpg"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-48 md:h-72 lg:h-96 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
+                src="/5bb50a97-d8a7-4b89-b910-88acbc56e851.jpg"
+                alt="startup template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-48 md:h-72 lg:h-96 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </a>
+            <a 
+              href="/4c693dd8-6025-4a56-9745-b82f45ffc8d1.jpg" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/4c693dd8-6025-4a56-9745-b82f45ffc8d1.jpg"
+                alt="startup template"
+                width={500}
+                height={600}
+                className="rounded-lg object-cover h-48 md:h-72 lg:h-96 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </a>
+            <a 
+              href="/33c3d70d-bbd4-48b5-8a28-dbdf4ab166bb (1).jpg" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/33c3d70d-bbd4-48b5-8a28-dbdf4ab166bb (1).jpg"
+                alt="startup template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-48 md:h-72 lg:h-96 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </a>
+            <a 
+              href="/869bd644-d4e3-4e74-800f-d31859436737.jpg" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/869bd644-d4e3-4e74-800f-d31859436737.jpg"
+                alt="startup template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-48 md:h-72 lg:h-96 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </a>
+            <a 
+              href="/00218ac1-6c2f-458d-9cd7-13a136aa23ed.jpg" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/00218ac1-6c2f-458d-9cd7-13a136aa23ed.jpg"
+                alt="startup template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-48 md:h-72 lg:h-96 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </a>
           </div>
         </div>
       ),
     },
     {
-      title: "2024",
+      title: "Project 2025",
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            I usually run out of copy, but when I see content this big, I try to
-            integrate lorem ipsum.
-          </p>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Lorem ipsum is for people who are too lazy to write copy. But we are
-            not. Here are some more example of beautiful designs I built.
-          </p>
+          
           <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="/Capture d'écran 2025-03-04 133156.png"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="https://assets.aceternity.com/templates/startup-3.webp"
-              alt="feature template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="/Ayruu-Travel-management-1536x963.jpg"
-              alt="bento template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="https://assets.aceternity.com/templates/startup-4.webp"
-              alt="cards template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
+            <a 
+              href="/Capture d'écran 2025-03-04 133156.png" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/Capture d'écran 2025-03-04 133156.png"
+                alt="hero template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </a>
+            <a 
+              href="https://academy-five-beige.vercel.app" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/Capture d'écran 2025-05-28 190334.png"
+                alt="feature template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </a>
+            <a 
+              href="/Captu.png" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/Captu.png"
+                alt="bento template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </a>
+            <a 
+              href="https://leafy-melba-4250c2.netlify.app" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/Capture d'écran 2025-05-28 125240.png"
+                alt="cards template"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </a>
           </div>
         </div>
       ),
@@ -114,39 +168,68 @@ className="rounded-lg object-cover h-48 md:h-72 lg:h-96 w-full shadow-[0_0_24px_
           </p>
           
           <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="/nodejs-logo-vector-png-desktop-background-2560.png"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="/bulma-vue-ccs-components.png"
-              alt="feature template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="/Laravel-logo-300x300.jpg"
-              alt="bento template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-            <Image
-              src="/mongodb-png--1000.png"
-              alt="cards template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
+            <a 
+              href="https://nodejs.org" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/nodejs-logo-vector-png-desktop-background-2560.png"
+                alt="Node.js - Visit nodejs.org"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </a>
+            <a 
+              href="https://bulma.io" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/bulma-vue-ccs-components.png"
+                alt="Bulma CSS - Visit bulma.io"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </a>
+            <a 
+              href="https://laravel.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/Laravel-logo-300x300.jpg"
+                alt="Laravel - Visit laravel.com"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </a>
+            <a 
+              href="https://mongodb.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block hover:opacity-80 transition-opacity"
+            >
+              <Image
+                src="/mongodb-png--1000.png"
+                alt="MongoDB - Visit mongodb.com"
+                width={500}
+                height={500}
+                className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+            </a>
           </div>
         </div>
       ),
     },
   ];
+  
   return (
     <div className="w-full">
       <Timeline data={data} />
