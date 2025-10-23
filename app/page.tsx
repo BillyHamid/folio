@@ -1,19 +1,10 @@
-import TimelineDemo, { BackgroundBeamsWithCollisionDemo,  ThreeDMarqueeDemo } from "./homepages";
-
-
-
+import { BankingDashboard } from "../components/banking/banking-dashboard";
 
 const Page = () => {
     return (
         <div>
-           
-            <BackgroundBeamsWithCollisionDemo />
-           
-            <TimelineDemo />
-            <ThreeDMarqueeDemo />
-
+            <BankingDashboard />
         </div>
-
     );
 };
 
