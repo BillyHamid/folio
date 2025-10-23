@@ -8,6 +8,7 @@ import { BottomNavigation } from "./bottom-navigation";
 import { CardsScreen } from "./cards-screen";
 import { SendMoneyScreen } from "./send-money-screen";
 import { ProfileScreen } from "./profile-screen";
+import { ProfileScreen } from "./profile-screen";
 
 // Mock data - in a real app this would come from an API
 const mockTransactions = [
@@ -64,6 +65,15 @@ export function BankingDashboard() {
     return (
       <div>
         <SendMoneyScreen currencySymbol="£" />
+        <BottomNavigation onTabChange={handleTabChange} activeTab={activeTab} />
+      </div>
+    );
+  }
+
+  if (activeTab === "profile") {
+    return (
+      <div>
+        <ProfileScreen userName="Christian" userEmail="christian@example.com" />
         <BottomNavigation onTabChange={handleTabChange} activeTab={activeTab} />
       </div>
     );
